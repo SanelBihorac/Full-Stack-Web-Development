@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/*have h1 and h2 have the same colour :blueviolet */
+h1, h2 {
+    color: blueviolet;
+}
+
+/*set the first p-tab to a firebrick colour*/
+
+div > p {
+    color: firebrick;
+}
+
+/*give the three list items a blue colour*/
+.box li {
+    color: blue;
+}
+
+/*give the second and third bulletpoint a seagreen colour*/
+.box li.done {
+    color: seagreen;
+}
+
+/*change the size of "Other items" to 0.5rem*/
+ul p.done {
+    font-size: 0.5rem;
+}
